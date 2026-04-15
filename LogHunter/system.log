@@ -1,0 +1,8 @@
+2026-04-14T14:23:45Z [AUTH] Failed login for user 'admin' from 192.168.1.105:54321
+2026-04-14T14:24:12Z [AUTH] Failed login for user 'admin' from 192.168.1.105:54322
+2026-04-14T14:24:28Z [AUTH] Failed login for user 'admin' from 192.168.1.105:54323
+2026-04-14T14:24:45Z [AUTH] Successful login for user 'admin' from 192.168.1.105:54324
+2026-04-14T14:25:00Z [PRIV] Privilege escalation: admin → root granted
+2026-04-14T14:25:15Z [SYSTEM] FLAG_ACCESS: fsociety{l0g_h4ck1ng_r3v34ls_all}
+2026-04-14T14:25:30Z [COMMAND] Command executed: /bin/bash -c 'cat /etc/passwd'
+2026-04-14T14:26:00Z [SESSION] Root session started - PID: 2847

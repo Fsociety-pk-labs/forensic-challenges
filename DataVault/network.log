@@ -1,0 +1,7 @@
+2026-04-14T18:15:30Z [NET] SRC: 210.75.104.89:43892 → DST: 10.0.0.50:3306 [MySQL] Connection established
+2026-04-14T18:15:45Z [NET] Data transfer start - Protocol: TCP - Size: 445MB - Duration: 3m
+2026-04-14T18:16:00Z [NET] SRC: 10.0.0.50 → DST: 203.0.113.50:4444 [C2_ALERT] Known malware C2 - BLOCKED
+2026-04-14T18:17:00Z [NET] SRC: 210.75.104.89:43893 → DST: 10.0.0.50:143 [IMAP] Email protocol
+2026-04-14T18:18:00Z [NET] Email exfiltration: 7MB to secure-drop.ru - Subject: Database_Backup_2026.zip
+2026-04-14T18:20:00Z [NET] SRC: 10.0.0.50 → DST: 203.0.113.50:443 [HTTPS_C2] Duration: 45s
+2026-04-14T18:25:00Z [NET] All connections from 210.75.104.89 terminated

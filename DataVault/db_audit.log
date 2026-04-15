@@ -1,0 +1,6 @@
+2026-04-14T17:55:00Z [ACCESS] john.admin login from 210.75.104.89 (RU) - SSH key auth
+2026-04-14T18:00:15Z [DB] john.admin elevated to DBA role
+2026-04-14T18:15:30Z [DB] Query: SELECT * FROM customers WHERE country IN ('US','UK') - 234,567 rows returned
+2026-04-14T18:16:00Z [DB] Network transfer: 445MB data export initiated
+2026-04-14T18:17:45Z [SECURITY] Log deletion attempt by john.admin - BLOCKED (immutable)
+2026-04-14T18:25:00Z [SESSION] john.admin disconnected - Duration: 29m 45s

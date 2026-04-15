@@ -1,0 +1,7 @@
+2026-04-14T14:23:45Z [FIREWALL] Connection attempt: 192.168.1.105:54321 → 10.0.0.1:22 [SSH] - DENIED
+2026-04-14T14:24:12Z [FIREWALL] Connection attempt: 192.168.1.105:54322 → 10.0.0.1:22 [SSH] - DENIED
+2026-04-14T14:24:28Z [FIREWALL] Connection attempt: 192.168.1.105:54323 → 10.0.0.1:22 [SSH] - DENIED
+2026-04-14T14:24:45Z [FIREWALL] Connection attempt: 192.168.1.105:54324 → 10.0.0.1:22 [SSH] - ALLOWED
+2026-04-14T14:25:00Z [IDS] ALERT: Privilege escalation detected on 10.0.0.1
+2026-04-14T14:25:15Z [FIREWALL] Unusual outbound connection: 10.0.0.1 → external network detected
+2026-04-14T14:25:30Z [NOTICE] Root process spawned from compromised user session
