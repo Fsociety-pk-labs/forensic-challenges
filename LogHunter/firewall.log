@@ -1,7 +1,0 @@
-2026-04-14T14:23:45Z [FIREWALL] Connection from 192.168.1.105:54321 to 10.0.0.1:22 [SSH] - Connection established - Duration: 15 seconds - Session ID: SSH_001
-2026-04-14T14:24:12Z [FIREWALL] Connection from 192.168.1.105:54322 to 10.0.0.1:22 [SSH] - Connection timeout - Duration: 12 seconds
-2026-04-14T14:24:28Z [FIREWALL] Connection from 192.168.1.105:54323 to 10.0.0.1:22 [SSH] - Connection timeout - Duration: 13 seconds
-2026-04-14T14:24:45Z [FIREWALL] Connection from 192.168.1.105:54324 to 10.0.0.1:22 [SSH] - Connection successful - Duration: 125 seconds
-2026-04-14T14:25:15Z [IDS] Suspicious activity: Elevation of privilege detected - Risk level: CRITICAL
-2026-04-14T14:25:30Z [FIREWALL] Outbound data transfer: 10.0.0.1 → 203.0.113.45:443 - Protocol: HTTPS - Size: 2.3MB
-2026-04-14T14:26:00Z [FIREWALL] Process alert: Unknown process spawning child processes - PID: 2847 - Privilege: root
