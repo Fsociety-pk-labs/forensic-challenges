@@ -1,6 +1,6 @@
-2026-04-14T08:00:00Z [LOGIN] john.admin from 192.168.1.50 (New York, US) - SUCCESS
-2026-04-14T12:30:00Z [LOGIN] john.admin logged out
-2026-04-14T17:55:00Z [LOGIN] john.admin from 210.75.104.89 (Moscow, Russia) - SUCCESS  [GEOGRAPHIC ANOMALY]
-2026-04-14T18:00:00Z [PRIVILEGE] john.admin role changed to DBA - ELEVATED ACCESS
-2026-04-14T18:15:30Z [COMMAND] Large database query executed by john.admin
-2026-04-14T18:25:00Z [LOGOUT] john.admin session terminated
+2026-04-14T08:00:00Z [LOGIN] john.admin from 192.168.1.50 (New York, US) - SUCCESS | Session: SESS_A1B2C3D4E5
+2026-04-14T12:30:00Z [LOGIN] john.admin logged out | Duration: 4h 30m
+2026-04-14T17:55:00Z [LOGIN] john.admin from 210.75.104.89 (Moscow, Russia) - SUCCESS  [GEOGRAPHIC ANOMALY] | Session: SESS_X9Y8Z7W6
+2026-04-14T18:00:00Z [PRIVILEGE] john.admin role changed to DBA - ELEVATED ACCESS | Auth_token: 1ns1d3r_th
+2026-04-14T18:15:30Z [COMMAND] Large database query executed by john.admin | Table_access: CUSTOMERS_PROD
+2026-04-14T18:25:00Z [LOGOUT] john.admin session terminated | Audit_hash: r34t_d4t4_v4u1t

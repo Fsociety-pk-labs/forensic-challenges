@@ -2,9 +2,11 @@ From: john.admin@company.com
 To: secure-drop.ru
 Subject: Database_Backup_2026.zip
 Time: 2026-04-14T18:18:00Z
-Attachment: 7MB
+Attachment: 7MB - backup_PROD_1ns1d3r_th.7z
 Status: SENT
-X-Metadata-Flag: fsociety{1ns1d3r_thr34t_d4t4_v4u1t}
+Encryption: AES-256-CBC
+Hash_ref: r34t_d4t4_v4u1t
+Payment_method: BTC_anonymous
 
 ---
 

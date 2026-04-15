@@ -1,32 +1,49 @@
-# LogHunter
+# LogHunter Challenge - EASY
 
-## Challenge Name
-**LogHunter - Forensics (Easy)**
+## Difficulty: EASY ⭐
 
-## Description
-A critical incident has occurred on your web server. You have recovered system logs and firewall logs. Your task is to analyze these logs to:
-1. Identify when the attack started
-2. Determine the source IP address
-3. Find what actions the attacker performed
-4. Extract the hidden flag from the logs
+A straightforward forensic challenge requiring log analysis and correlation.
 
-## Difficulty
-⭐ **Easy** (20-30 minutes)
+## Scenario
 
-## Learning Objectives
-- Understand system log formats
-- Learn firewall log analysis
-- Practice timeline reconstruction
-- Identify attack indicators
-- Develop forensic investigation skills
+A system has been compromised through brute force attack followed by privilege escalation. Your job is to analyze the logs and identify the flag hidden within the attack timeline.
 
 ## Files Provided
-- `system.log` - System authentication logs
-- `firewall.log` - Firewall connection logs
 
-## What You'll Learn
-- How to read and interpret various log formats
-- Attack pattern recognition
-- Timeline reconstruction from logs
-- Correlation between different log sources
-- Real-world incident response procedures
+- `system.log` - System authentication and command execution logs
+- `firewall.log` - Network connection and security events
+
+## Objective
+
+Analyze the logs to:
+1. Identify the attack pattern (brute force → successful login → privilege escalation)
+2. Locate the flag fragments hidden in the logs
+3. Combine the fragments to form the complete flag
+
+## Instructions
+
+1. Examine both log files carefully
+2. Look for suspicious patterns and timing correlations
+3. Identify all flag-related fragments in the logs
+4. Piece together the flag from the fragments found
+
+## Flag Format
+
+`fsociety{...}`
+
+## Hints
+
+- Pay attention to the timestamps and IP addresses
+- Look for encoded or split flag components
+- The flag fragments are scattered across both logs
+- Correlation between system.log and firewall.log is key
+- Check file read operations and command outputs for clues
+
+## Difficulty Breakdown
+
+- **Analysis Complexity**: Low to Medium
+- **Correlation Required**: 2 files
+- **Encoding Level**: Simple base64/text fragments
+- **Time Estimate**: 15-30 minutes
+
+Good luck, analyst!

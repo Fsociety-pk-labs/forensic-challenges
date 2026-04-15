@@ -1,8 +1,10 @@
-2026-04-14T14:23:45Z [AUTH] Failed login for user 'admin' from 192.168.1.105:54321
-2026-04-14T14:24:12Z [AUTH] Failed login for user 'admin' from 192.168.1.105:54322
-2026-04-14T14:24:28Z [AUTH] Failed login for user 'admin' from 192.168.1.105:54323
+2026-04-14T14:23:45Z [AUTH] Failed login attempt for user 'admin' from 192.168.1.105:54321 - Invalid password
+2026-04-14T14:24:12Z [AUTH] Failed login attempt for user 'admin' from 192.168.1.105:54322 - Invalid password
+2026-04-14T14:24:28Z [AUTH] Failed login attempt for user 'admin' from 192.168.1.105:54323 - Invalid password
 2026-04-14T14:24:45Z [AUTH] Successful login for user 'admin' from 192.168.1.105:54324
-2026-04-14T14:25:00Z [PRIV] Privilege escalation: admin → root granted
-2026-04-14T14:25:15Z [SYSTEM] FLAG_ACCESS: fsociety{l0g_h4ck1ng_r3v34ls_all}
-2026-04-14T14:25:30Z [COMMAND] Command executed: /bin/bash -c 'cat /etc/passwd'
-2026-04-14T14:26:00Z [SESSION] Root session started - PID: 2847
+2026-04-14T14:25:00Z [SUDO] User 'admin' executed command with elevated privileges: /usr/bin/cat
+2026-04-14T14:25:15Z [FILE] File read access to /home/admin/.secret - Output fragment: f3d7b9c2_l0g_h4ck1ng
+2026-04-14T14:25:30Z [BASH] Command executed by admin: /bin/bash -c 'echo r3v34ls_all | md5sum'
+2026-04-14T14:26:00Z [SESSION] Privilege escalation executed - PID 2847 running as root
+2026-04-14T14:26:15Z [COMMAND] Root command: /usr/bin/xxd /var/log/hidden.txt
+2026-04-14T14:26:45Z [PROCESS] Process termination - Session cleanup initiated
