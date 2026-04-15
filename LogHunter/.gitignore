@@ -1,0 +1,13 @@
+# Solutions - hidden from public repository
+script.md
+solution.txt
+*.solution
+*.hints
+answers.txt
+timeline.txt
+.hints
+solutions/
+node_modules/
+.env
+.DS_Store
+*.log
